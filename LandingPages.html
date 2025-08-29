@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio Personal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .hero {
+      background-color: #007bff;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .portfolio-img {
+      height: 200px;
+      object-fit: cover;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🟢 COMMIT UNO: Título personal principal -->
+  <header class="hero">
+    <h1>Jonathan Alvarez</h1>
+    <p class="lead">Docente Lic. Informática</p>
+  </header>
+
+  <!-- 🟢 COMMIT DOS: Sección de presentación -->
+  <section class="container my-5 text-center">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy un futuro docente con ancias de trabajar.
+    </p>
+  </section>
+
+  <!-- 🟢 COMMIT TRES: Imagen y banner del portafolio -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Mi Portafolio</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <img src="img/proyecto1.jpg" alt="Proyecto 1" class="portfolio-img">
+        <h5 class="mt-2">Proyecto 1</h5>
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="img/proyecto2.jpg" alt="Proyecto 2" class="portfolio-img">
+        <h5 class="mt-2">Proyecto 2</h5>
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="img/proyecto3.png" alt="Proyecto 3" class="portfolio-img">
+        <h5 class="mt-2">Proyecto 3</h5>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🟢 COMMIT CUATRO: Contacto o llamada de acción -->
+  <section class="bg-light py-5">
+    <div class="container text-center">
+      <h2>¿Hablamos?</h2>
+      <p>Estoy disponible para nuevos proyectos o colaboraciones.</p>
+      <a href="mailto:alvjohnny15@gmail.com" class="btn btn-primary btn-lg">Contáctame</a>
+    </div>
+  </section>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/img1.png" alt="slide1">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/img2.png" alt="slide2">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/img3.png" alt="slide3">
+    </div>
+  </div>
+</div>
+  <!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <div class="container">
+    <p class="mb-0">© Aplicación OVA | Jonathan Alexander Alvarez Ruales.</p>
+    <p class="mb-0">UDENAR.</p>
+    <p class="mb-0">2025</p>
+  </div>
+</footer>
+
+</body>
+</html>
